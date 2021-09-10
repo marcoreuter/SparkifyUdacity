@@ -1,5 +1,4 @@
 # Sparkify Churn Predictions
-![](upgrades_per_month.png)
 
 
 ## Business Understanding:
