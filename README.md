@@ -15,17 +15,17 @@ Most interesting for the analysis are the following columns:
 4) ts: a timestamp of the user interactions
 
 To understand the data and the service, I create dashboard style KPIs:
-1) Monthly unique active users
+1) Monthly unique active users:  
 ![](monthly_active_users.png)
-2) Monthly unique free users
+2) Monthly unique free users:  
 ![](monthly_free_users.png)
-3) Monthly unique paid users
+3) Monthly unique paid users:  
 ![](monthly_paid_users.png)
-4) Advertisements per month
+4) Advertisements per month:  
 ![](adverts_per_month.png)
-5) Upgrades from "free" to "paid" per month
+5) Upgrades from "free" to "paid" per month:  
 ![](upgrades_per_month.png)
-6) Percentage of users that churn per month
+6) Percentage of users that churn per month:  
 ![](user_churn_per_month.png)
 
 ## Data Preparation 
