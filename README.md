@@ -32,6 +32,7 @@ To understand the data and the service, I create dashboard style KPIs:
 The data is cleaned, such that interactions without userId are removed (mostly described interactions of users before logging into the service). Then I create features to train a churn prediction model. First, for the users that actually churn, I determine the churn date. For the users that do not churn, I determine the largest date in the dataset. For both groups, I consider data for 10 days before these events. I restrict data to a timeframe of 10 days before the churn events, as it should capture the recent experience of the user with the service and therefore the events that cause a user to churn. I then create the following features:
 
 1) **song_per_user_day_norm** :   
+The feature is calculated as:
 
 ![](equation.png)  
 
