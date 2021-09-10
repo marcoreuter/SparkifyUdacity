@@ -6,7 +6,7 @@ The project goal is to develop a model to predict the churn of users of the fict
 ## Data Understanding
 The data comes in a large dataset (12 GB). It is a log of the user interactions with the Sparkify platform. The data is organized in the following structure:
 
-![](date_structure.png)
+![](data_structure.png)
 
 Most interesting for the analysis are the following columns:
 1) userId: a unique userId that allows to idenfity every user in the dataset
@@ -32,10 +32,7 @@ To understand the data and the service, I create dashboard style KPIs:
 The data is cleaned, such that interactions without userId are removed (mostly described interactions of users before logging into the service). Then I create features to train a churn prediction model. First, for the users that actually churn, I determine the churn date. For the users that do not churn, I determine the largest date in the dataset. For both groups, I consider data for 10 days before these events. I restrict data to a timeframe of 10 days before the churn events, as it should capture the recent experience of the user with the service and therefore the events that cause a user to churn. I then create the following features:
 
 1) **song_per_user_day_norm** : 
-$$
-\frac{songs/day-mean_{\text{last 10 days}}(songs/day)}{mean_{\text{last 10 days}}(songs/day)} 
-$$
-
+![](equation.png)
 This feature describes how much a user has been listening to songs on Sparkify during the last 10 days in a percentage of the 10 day average. If on a given day, the user has been listening to an exactly average amount of songs, the feature equals 0. If a user has been listening to a below average amount of songs, the feature is negative. If a user has been listening to an abover average amount of songs, the feature is positive.
 
 2) **adverts/song**: describes how many adverts a user has had to listen to per song on each given day for the last 10 days
