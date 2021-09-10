@@ -22,9 +22,9 @@ To understand the data and the service, I create dashboard style KPIs:
 3) Monthly unique paid users:  
 ![](monthly_paid_users.png)
 4) Advertisements per month:  
-![](adverts_per_month.png)
+![](adverts_per_month.png)  
 5) Upgrades from "free" to "paid" per month:  
-![](upgrades_per_month.png)
+![](upgrades_per_month.png)  
 6) Percentage of users that churn per month:  
 ![](user_churn_per_month.png)
 
