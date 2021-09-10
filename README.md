@@ -53,9 +53,9 @@ I perform a test-train split. 70% of the data are randomly split into a training
 The model is evaluated on the training and the testing set. For the training set the results are:
 |Training|  |
 |--|--|
-|Recall|  |
-|Accuracy|  |
-|F1 score|	|
+|Recall|0.81|
+|Accuracy|0.78|
+|F1 score|0.69|
 
 |Testing|  |
 |--|--|
