@@ -33,7 +33,7 @@ The data is cleaned, such that interactions without userId are removed (mostly d
 
 1) **song_per_user_day_norm** :   
 
-<img src="https://render.githubusercontent.com/render/math?math= \frac{songs/day-mean_{\text{last 10 days}}(songs/day)}{mean_{\text{last 10 days}}(songs/day)}">
+![](equation.png)  
 
 This feature describes how much a user has been listening to songs on Sparkify during the last 10 days in a percentage of the 10 day average. If on a given day, the user has been listening to an exactly average amount of songs, the feature equals 0. If a user has been listening to a below average amount of songs, the feature is negative. If a user has been listening to an abover average amount of songs, the feature is positive.
 
