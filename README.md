@@ -57,11 +57,11 @@ The model is evaluated on the training and the testing set. For the training set
 |Accuracy|0.78||||
 |F1 score|0.69||||
 
-|Testing|  |
-|--|--|
-|Recall|0.77|
-|Accuracy|0.77|
-|F1 score|0.69|
+|Testing|1 Node|2 Nodes|4 Nodes| 
+|--|--|--|--|
+|Recall|0.81||||
+|Accuracy|0.78||||
+|F1 score|0.69||||
 
 As a main metric for the evaluation of the model, I consider the F1 score, due to the relative imbalanace in the data set: the amount of users that do not churn largely outnumbers the amount of users that churn. This is highlighted in the "Percentage of users that churn per month" KPI.
 
