@@ -57,9 +57,9 @@ The model is evaluated on the training and the testing set. For the training set
 
 The 4 nodes model performs best. Even though the difference is less than significant. The test data is evaluated using the 4 nodes model.
 
-|Testing|4 Nodes 
-|--|--|--|--|
-|F1-Measure|0.69|
+|Testing|4 Nodes| 
+|--|--|
+|F1-Measure|0.679|
 
 ## Deployment
 To run the project, the Jupyter notebook "Sparkify.ipynb" needs to be deployed into a AWS EMR instance that runs spark.
