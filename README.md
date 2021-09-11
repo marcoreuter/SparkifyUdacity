@@ -1,5 +1,5 @@
 # Sparkify Churn Predictions
-
+A blog post giving a more detailed description of the project can be found [here](https://medium.com/@reutermarco91/churn-prediction-for-sparkify-7f653bb8fbf9)
 
 ## Business Understanding:
 The project goal is to develop a model to predict the churn of users of the ficticious music streaming platform Sparkify. Sparkify is a subscription based music streaming platform similar to Spotify. Churn is defined by users cancelling their subscriptions. The goal of the project is to predict which users are more likely to churn using the data they generate.
