@@ -53,15 +53,13 @@ I perform a test-train split. 70% of the data are randomly split into a training
 The model is evaluated on the training and the testing set. For the training set the results are:
 |Training|1 Node|2 Nodes|4 Nodes| 
 |--|--|--|--|
-|Weighted Precision|0.81||||
-|Weighted Recall|0.78||||
-|Weighted F-Measure|0.69||||
+|F1-Measure|0.677|0.677|0.678|
 
-|Testing|1 Node|2 Nodes|4 Nodes| 
+The 4 nodes model performs best. Even though the difference is less than significant. The test data is evaluated using the 4 nodes model.
+
+|Testing|4 Nodes 
 |--|--|--|--|
-|Weighted Precision|0.81||||
-|Weighted Recall|0.78||||
-|Weighted F-Measure|0.69||||
+|F1-Measure|0.69|
 
 ## Deployment
 To run the project, the Jupyter notebook "Sparkify.ipynb" needs to be deployed into a AWS EMR instance that runs spark.
