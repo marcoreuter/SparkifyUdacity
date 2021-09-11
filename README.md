@@ -51,11 +51,11 @@ I perform a test-train split. 70% of the data are randomly split into a training
 
 ## Evaluation
 The model is evaluated on the training and the testing set. For the training set the results are:
-|Training|  |
-|--|--|
-|Recall|0.81|
-|Accuracy|0.78|
-|F1 score|0.69|
+|Training|1 Node|2 Nodes|4 Nodes| 
+|--|--|--|--|
+|Recall|0.81||||
+|Accuracy|0.78||||
+|F1 score|0.69||||
 
 |Testing|  |
 |--|--|
@@ -66,7 +66,7 @@ The model is evaluated on the training and the testing set. For the training set
 As a main metric for the evaluation of the model, I consider the F1 score, due to the relative imbalanace in the data set: the amount of users that do not churn largely outnumbers the amount of users that churn. This is highlighted in the "Percentage of users that churn per month" KPI.
 
 ## Deployment
-To run the project, the Jupyter notebook needs to be deployed into a AWS EMR instance that runs spark.
+To run the project, the Jupyter notebook "Sparkify.ipynb" needs to be deployed into a AWS EMR instance that runs spark.
 
 ### Libraries / Services and Data
 The following libraries have been used in the project:
