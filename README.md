@@ -63,8 +63,6 @@ The model is evaluated on the training and the testing set. For the training set
 |Weighted Recall|0.78||||
 |Weighted F-Measure|0.69||||
 
-As a main metric for the evaluation of the model, I consider the F1 score, due to the relative imbalanace in the data set: the amount of users that do not churn largely outnumbers the amount of users that churn. This is highlighted in the "Percentage of users that churn per month" KPI.
-
 ## Deployment
 To run the project, the Jupyter notebook "Sparkify.ipynb" needs to be deployed into a AWS EMR instance that runs spark.
 
