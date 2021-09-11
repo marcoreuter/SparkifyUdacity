@@ -53,17 +53,13 @@ I perform a test-train split. 70% of the data are randomly split into a training
 The model is evaluated on the training and the testing set. For the training set the results are:
 |Training|1 Node|2 Nodes|4 Nodes| 
 |--|--|--|--|
-|Recall|0.81||||
-|Accuracy|0.78||||
-|F1 score|0.69||||
+|F1-Measure|0.677|0.677|0.678|
 
-|Testing|1 Node|2 Nodes|4 Nodes| 
-|--|--|--|--|
-|Recall|0.81||||
-|Accuracy|0.78||||
-|F1 score|0.69||||
+The 4 nodes model performs best. Even though the difference is less than significant. The test data is evaluated using the 4 nodes model.
 
-As a main metric for the evaluation of the model, I consider the F1 score, due to the relative imbalanace in the data set: the amount of users that do not churn largely outnumbers the amount of users that churn. This is highlighted in the "Percentage of users that churn per month" KPI.
+|Testing|4 Nodes| 
+|--|--|
+|F1-Measure|0.679|
 
 ## Deployment
 To run the project, the Jupyter notebook "Sparkify.ipynb" needs to be deployed into a AWS EMR instance that runs spark.
